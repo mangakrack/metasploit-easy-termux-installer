@@ -1,0 +1,10 @@
+In this text i try to solve somo errors
+
+If you have the follow error
+
+Failed to connect to the database: could not connect to server: Connection refused
+        Is the server running on host "127.0.0.1" and accepting
+        TCP/IP connections on port 5432?
+
+To solve you have to exit of metasploit and use the follow command
+pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
