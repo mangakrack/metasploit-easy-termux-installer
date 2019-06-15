@@ -5,6 +5,7 @@
 pkg update
 
 pkg upgrade
+
 pkg instal figlet
 
 pkg install unstable-repo
