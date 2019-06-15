@@ -8,3 +8,17 @@ Failed to connect to the database: could not connect to server: Connection refus
 
 To solve you have to exit of metasploit and use the follow command
 pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
+
+
+If you have this error
+
+Could not find (a gem ) in any of the sources
+
+Run 'bundle install' to install missing gems.
+
+Your will try uninstall and reinstall termux
+Run bundle install (the gem)
+Get sure that you have 1 gb 
+
+
+for another error or solution your will ask me
